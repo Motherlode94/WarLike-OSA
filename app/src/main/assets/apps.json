@@ -1,6 +1,6 @@
 {
   "schema": "warlike.android.hub.catalog.v1",
-  "version": 3,
+  "version": 4,
   "apps": [
     {
       "id": "engine",
@@ -179,6 +179,15 @@
       "category": "Outils",
       "description": "Projet en préparation · dépôt GitHub",
       "url": "https://github.com/Motherlode94/WarLike-OSW",
+      "delivery": "web",
+      "androidApk": null
+    },
+    {
+      "id": "android-hub",
+      "name": "WarLike Android Hub",
+      "category": "Outils",
+      "description": "Application Android dédiée à l’écosystème WarLike",
+      "url": "https://warlike-android-hub.pages.dev/",
       "delivery": "web",
       "androidApk": null
     }
