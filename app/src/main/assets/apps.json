@@ -1,0 +1,186 @@
+{
+  "schema": "warlike.android.hub.catalog.v1",
+  "version": 3,
+  "apps": [
+    {
+      "id": "engine",
+      "name": "WarLike Engine",
+      "category": "Jeux",
+      "description": "Créer des jeux 2D et 3D",
+      "url": "https://warlike-engine.pages.dev/",
+      "delivery": "web",
+      "androidApk": null
+    },
+    {
+      "id": "library",
+      "name": "WarLike Library",
+      "category": "Jeux",
+      "description": "Bibliothèque et prefabs",
+      "url": "https://warlike-library.pages.dev/",
+      "delivery": "web",
+      "androidApk": null
+    },
+    {
+      "id": "store",
+      "name": "WarLike Asset Store",
+      "category": "Jeux",
+      "description": "Modèles 2D/3D et extensions",
+      "url": "https://warlike-asset-stores.pages.dev/",
+      "delivery": "web",
+      "androidApk": null
+    },
+    {
+      "id": "modeliser",
+      "name": "WarLike Modeliser",
+      "category": "Création",
+      "description": "Modélisation et assets",
+      "url": "https://warlike-modeliser.pages.dev/",
+      "delivery": "web",
+      "androidApk": null
+    },
+    {
+      "id": "studio",
+      "name": "WarLike Studio",
+      "category": "Musique",
+      "description": "Production musicale",
+      "url": "https://warlike-studio.pages.dev/",
+      "delivery": "web",
+      "androidApk": null
+    },
+    {
+      "id": "node",
+      "name": "WarLike Node",
+      "category": "Création",
+      "description": "Compositing visuel",
+      "url": "https://warlike-node.pages.dev/",
+      "delivery": "web",
+      "androidApk": null
+    },
+    {
+      "id": "monteur",
+      "name": "WarLike Monteur",
+      "category": "Création",
+      "description": "Montage vidéo",
+      "url": "https://warlike-monteur.pages.dev/",
+      "delivery": "web",
+      "androidApk": null
+    },
+    {
+      "id": "misc",
+      "name": "WarLike MISC",
+      "category": "Musique",
+      "description": "Apprentissage instrumental",
+      "url": "https://warlike-misc.pages.dev/",
+      "delivery": "web",
+      "androidApk": null
+    },
+    {
+      "id": "radio",
+      "name": "WarLike Radio",
+      "category": "Musique",
+      "description": "Radios et émissions",
+      "url": "https://warlike-radio.pages.dev/",
+      "delivery": "web",
+      "androidApk": null
+    },
+    {
+      "id": "chat",
+      "name": "WarLike Chat",
+      "category": "Communication",
+      "description": "Salons et messages",
+      "url": "https://warlike-chat.pages.dev/",
+      "delivery": "web",
+      "androidApk": null
+    },
+    {
+      "id": "pdf",
+      "name": "WarLike PDF",
+      "category": "Outils",
+      "description": "Création et modification de documents",
+      "url": "https://warlike-pdf.pages.dev/",
+      "delivery": "web",
+      "androidApk": null
+    },
+    {
+      "id": "crypte",
+      "name": "WarLike Crypte",
+      "category": "Outils",
+      "description": "Coffre personnel",
+      "url": "https://warlike-crypte.pages.dev/",
+      "delivery": "web",
+      "androidApk": null
+    },
+    {
+      "id": "games",
+      "name": "WarLike Gaming",
+      "category": "Jeux",
+      "description": "Catalogue de jeux et prototypes",
+      "url": "https://game-hub-v2.pages.dev/",
+      "delivery": "web",
+      "androidApk": null
+    },
+    {
+      "id": "extensions",
+      "name": "Extensions WarLike",
+      "category": "Outils",
+      "description": "Extensions pour les logiciels",
+      "url": "https://warlike-asset-stores.pages.dev/extensions.html",
+      "delivery": "web",
+      "androidApk": null
+    },
+    {
+      "id": "hub",
+      "name": "WarLike Hub",
+      "category": "Outils",
+      "description": "Portail central de l’écosystème WarLike",
+      "url": "https://warlike-hub.pages.dev/",
+      "delivery": "web",
+      "androidApk": null
+    },
+    {
+      "id": "mail",
+      "name": "WarLike Mail",
+      "category": "Communication",
+      "description": "Messagerie WarLike",
+      "url": "https://warlike-mail.vikktor7.chatgpt.site/",
+      "delivery": "web",
+      "androidApk": null
+    },
+    {
+      "id": "server",
+      "name": "WarLike Server",
+      "category": "Communication",
+      "description": "Console d’infrastructure WarLike",
+      "url": "https://warlike-server.vikktor7.chatgpt.site/serveur",
+      "delivery": "web",
+      "androidApk": null
+    },
+    {
+      "id": "browser",
+      "name": "WarLike Browser",
+      "category": "Outils",
+      "description": "Page du navigateur WarLike pour ordinateur",
+      "url": "https://warlike-browser.pages.dev/",
+      "delivery": "web",
+      "androidApk": null
+    },
+    {
+      "id": "osa",
+      "name": "WarLike OSA",
+      "category": "Outils",
+      "description": "Projet en préparation · dépôt GitHub",
+      "url": "https://github.com/Motherlode94/WarLike-OSA",
+      "delivery": "web",
+      "androidApk": null
+    },
+    {
+      "id": "osw",
+      "name": "WarLike OSW",
+      "category": "Outils",
+      "description": "Projet en préparation · dépôt GitHub",
+      "url": "https://github.com/Motherlode94/WarLike-OSW",
+      "delivery": "web",
+      "androidApk": null
+    }
+  ]
+}
