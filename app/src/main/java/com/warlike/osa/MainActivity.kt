@@ -36,13 +36,13 @@ class MainActivity : Activity() {
         val url: String,
         val delivery: String,
     )
-    private val backdrop = Color.rgb(13, 17, 28)
-    private val panel = Color.rgb(25, 31, 48)
-    private val border = Color.rgb(55, 64, 91)
-    private val violet = Color.rgb(171, 153, 255)
-    private val muted = Color.rgb(172, 185, 210)
-    private val white = Color.rgb(244, 245, 255)
-    private val teal = Color.rgb(110, 223, 206)
+    private val backdrop = Color.rgb(23, 33, 27)
+    private val panel = Color.rgb(35, 48, 39)
+    private val border = Color.rgb(89, 106, 92)
+    private val violet = Color.rgb(197, 197, 169)
+    private val muted = Color.rgb(212, 220, 202)
+    private val white = Color.rgb(248, 251, 241)
+    private val teal = Color.rgb(197, 197, 169)
     private val prefs by lazy { getSharedPreferences("warlike.androidhub.v1", MODE_PRIVATE) }
     private var apps = listOf<HubApp>()
     private var nativePackages = listOf<WarLikePackage>()
