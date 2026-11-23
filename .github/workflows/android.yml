@@ -75,7 +75,7 @@ jobs:
         if: always()
         run: rm -f "$RUNNER_TEMP/warlike-release.jks"
   emulator:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     permissions:
       contents: read
     timeout-minutes: 35
@@ -88,6 +88,16 @@ jobs:
       - uses: gradle/actions/setup-gradle@v4
         with:
           gradle-version: '8.9'
+      - name: Verify KVM acceleration
+        run: |
+          set -euo pipefail
+          if [ ! -c /dev/kvm ]; then
+            echo "::error::Hardware KVM is unavailable on this runner. Android emulator tests require an accelerated runner."
+            exit 1
+          fi
+          sudo chmod a+rw /dev/kvm
+          test -r /dev/kvm && test -w /dev/kvm
+          echo "KVM acceleration available."
       - name: Emulator smoke tests (Android 35)
         uses: reactivecircus/android-emulator-runner@v2
         with:
