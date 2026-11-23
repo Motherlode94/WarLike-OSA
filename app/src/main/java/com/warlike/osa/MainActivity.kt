@@ -151,6 +151,12 @@ class MainActivity : Activity() {
         root.addView(text("Ton espace Android, tes applications et tes services WarLike.", 14f, muted))
         addGap(root, 20)
 
+        val updateNotice = column(12).apply { background = shape(Color.rgb(29, 69, 54), 14, Color.rgb(131, 187, 166)) }
+        updateNotice.addView(text("✦  Mises à jour en cours", 15f, white, true))
+        updateNotice.addView(text("WarLike évolue : améliorations et nouvelles fonctionnalités. Les applications restent accessibles.", 12f, muted))
+        root.addView(updateNotice)
+        addGap(root, 14)
+
         val intro = column(15).apply { background = shape(panel, 18, border) }
         intro.addView(text("ÉCOSYSTÈME WARLIKE", 12f, teal, true))
         addGap(intro, 7)
